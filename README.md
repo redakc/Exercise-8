@@ -24,7 +24,7 @@ Load Bowtie into your workspace using `module load bowtie`. Then execute the fol
 
   * For convenience, set the BASENAME_OF_BOWTIE_INDEX to something short (no spaces). For example, replace BASENAME_OF_BOWTIE_INDEX with LLNORMTRI.
 
-  * What do you think the `--offrate 1` option is doing during the creation of the index? HINT: run `bowtie-build` without options to find out or use your google-fu.
+  * What do you think the `--offrate 1` option is doing during the creation of the index? HINT: run `bowtie-build` without options to find out or use google.
 
   * Once the index is created (might take a minute or two), you will see a number of new files ending in `*.ebwt` in the current directory if you do a “long listing”. Note that Bowtie names its indices differently than Bowtie2 and BWA (and no, they are NOT interchangeable).
 
